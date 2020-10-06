@@ -8,9 +8,7 @@ const Header = () => {
                 <nav>
                 
                     <div className="nav-wrapper">                    
-                    <a href="/sdd" className="brand-logo"> 
-                        Educative App
-                    </a>                    
+                    <a href="/sdd" className="brand-logo">Educative</a>                    
                     <a href="/" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">dehaze</i></a>
                     <ul className="right hide-on-med-and-down">
                         <li><a href="/first-step">Primeros Pasos</a></li>  
@@ -18,7 +16,7 @@ const Header = () => {
                         <li><a href="/comming-soon">CL</a></li>  
                         <li><a href="/comming-soon">QA</a></li>  
                         <li><a href="/comming-soon" id="login">Inciar Sesión</a></li>     
-                        <li><a href="/comming-soon" id="signup">Registrarse</a></li>                         
+                        <li><a href="/signup" id="signup">Registrarse</a></li>                         
                     </ul>
                     </div>
                 </nav>
