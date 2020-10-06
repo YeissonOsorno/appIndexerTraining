@@ -1,13 +1,86 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+:root {
+    --purple-main-dark: #30183f;
+    --purple-dark : #222222;
+    --purple-main-orange :#d6432a;
+  }
+  
+  #navbar_img-logo{
+      width: 10%!important;
+      height:10%!important;
+  }
+  img{
+    width: 25%;
+  }
+  nav,a{
+    background-color: white!important;
+    color: #222222!important;
+  }
+  nav>div>a:first-child{
+    margin-left: 3%;
+  }
+  nav ul{
+    margin-right: 3%;
+  }
+  
+  .container-fluid>div.row:first-child{
+    background-color: #ffffff;
+    color: #30183f;
+  }
+  
+  .card:hover{
+    width: 10px;
+  }
+  a.btn{
+    background-color: var(--purple-main-orange)!important;
+    border-radius: 10px!important;
+    color: white !important;
+  }
+  
+  button{
+    background-color: var(--purple-main-orange)!important;
+    border-radius: 10px!important;
+    color: white !important;
+  }
+  
+  
+  /* Helpers */
+  .spacing-50{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .spacing-100{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .spacing-150{
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+  div#root img.responsive-img{
+    width: 100% !important;
+    height: 200px!important;
+  }
+  
+  /* Pagina de Error*/
+  #img-error{
+    width: 50%;
+    height: 50%;
+  }
+  @media (max-width: 600px) {
+    #img-error{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  /**/
+  #login{
+    color:#d6432a !important ;
+  }
+  
+  #signup{
+    color: #30183f !important;
+  }
+  .carousel>a>img{
+    border-radius: 10%;
+  }
