@@ -14,7 +14,7 @@ const Home = () => {
                     <p>Una biblioteca para los nuevos indexadores... para que tu comienzo sea un poco mas facil</p>
                     <div>
                         {/*<button onClick={(e)=>{location.push('/first-steps')}}></button>*/}
-                        <Link to="/first-steps"className="btn">Primeros Pasos</Link>  
+                        <Link to="/themes"className="btn">Primeros Pasos</Link>  
                     </div>
                 </div>                
             </div>

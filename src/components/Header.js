@@ -11,7 +11,7 @@ const Header = () => {
                     <a href="/sdd" className="brand-logo">Educative</a>                    
                     <a href="/" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">dehaze</i></a>
                     <ul className="right hide-on-med-and-down">
-                        <li><a href="/first-step">Primeros Pasos</a></li>  
+                        <li><a href="/themes">Primeros Pasos</a></li>  
                         <li><a href="/comming-soon">Herramientas</a></li>  
                         <li><a href="/comming-soon">CL</a></li>  
                         <li><a href="/comming-soon">QA</a></li>  
@@ -33,10 +33,10 @@ const Header = () => {
                     <li><a className="waves-effect"  href="#!">Inicio</a></li>
                     
                     <li><div className="divider"></div></li>
-                    <li><a className="waves-effect"  href="#!">Primeros Pasos <span class="new badge green" data-badge-caption="Nuevo"></span></a></li>
-                    <li><a className="waves-effect"  href="#!">Herramientas<span class="new badge red" data-badge-caption="Pronto"></span></a></li>
-                    <li><a className="waves-effect"  href="#!">CL<span class="new badge red" data-badge-caption="Pronto"></span></a></li>
-                    <li><a className="waves-effect"  href="#!">QA<span class="new badge red" data-badge-caption="Pronto"></span></a></li>
+                    <li><a className="waves-effect"  href="#!">Primeros Pasos <span  className="new badge green" data-badge-caption="Nuevo"></span></a></li>
+                    <li><a className="waves-effect"  href="#!">Herramientas<span  className="new badge red" data-badge-caption="Pronto"></span></a></li>
+                    <li><a className="waves-effect"  href="#!">CL<span  className="new badge red" data-badge-caption="Pronto"></span></a></li>
+                    <li><a className="waves-effect"  href="#!">QA<span  className="new badge red" data-badge-caption="Pronto"></span></a></li>
                     <li><div className="divider"></div></li>
                     <li><a className="waves-effect"  href="#!">Sobre La App</a></li>
                     
