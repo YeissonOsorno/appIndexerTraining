@@ -1,0 +1,38 @@
+{
+    "posteo": {
+        "title": "scroll",
+        "autor": "rudy",
+        "id": 12312,
+        "componentes": [{
+                "informativo": {
+                    "textArea": "el scroolll es un metodo para paginar",
+                    "imagen": "asdahsd31235584515458ads",
+                    "link": "www.link.com"
+                },
+                "didactico": {
+                    "preguntas": "que es un scroll?",
+                    "respuesta": {
+                        "tipo": "combobox",
+                        "options": ["1", "2", "3", "4"],
+                        "respuesta_correcta": "4"
+                    }
+                }
+            },
+            {
+                "informativo": {
+                    "textArea": "el scroolll es un metodo para paginar",
+                    "imagen": "asdahsd31235584515458ads",
+                    "link": "www.link.com"
+                },
+                "didactico": {
+                    "preguntas": "que es un scroll?",
+                    "respuesta": {
+                        "tipo": "combobox",
+                        "options": ["1", "2", "3", "4"],
+                        "respuesta_correcta": "4"
+                    }
+                }
+            }
+        ]
+    }
+}
